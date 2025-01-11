@@ -3,7 +3,6 @@
 namespace Phatlacan\Html;
 
 use Phatlacan\Html\Contracts\RenderableInterface;
-use Title;
 
 readonly class Head implements RenderableInterface
 {
@@ -15,11 +14,11 @@ readonly class Head implements RenderableInterface
     public function render(): string
     {
         return "<{$this->getTagName()}>\n" .
-            "\t{$this->title->render()}" .
+            "\t{$this->title->render()}\n" .
             "</{$this->getTagName()}>\n";
     }
 
-    public function getTagName(): string
+    public static function getTagName(): string
     {
         return 'head';
     }

@@ -2,11 +2,6 @@
 
 namespace Phatlacan\Html;
 
-use Body;
-use Head;
-use Phatlacan\Html\Contracts\RenderableInterface;
-use RenderableElement;
-
 class Html extends RenderableElement
 {
     public function __construct(
@@ -20,12 +15,12 @@ class Html extends RenderableElement
     {
         return "<!DOCTYPE html>\n" .
             "<{$this->getTagName()} lang=\"$this->lang\">\n" .
-            $this->head->render() . "\n".
-            $this->body->render() . "\n".
+            $this->head->render() . "\n" .
+            $this->body->render() . "\n" .
             $this->renderClosingTag();
     }
 
-    public function getTagName(): string
+    public static function getTagName(): string
     {
         return 'html';
     }

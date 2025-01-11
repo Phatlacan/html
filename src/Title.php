@@ -15,10 +15,10 @@ readonly class Title implements RenderableInterface
 
     public function render(): string
     {
-        return "<{$this->getTagName()}>$this->title</{$this->getTagName()}>\n";
+        return "<{$this->getTagName()}>$this->title</{$this->getTagName()}>";
     }
 
-    public function getTagName(): string
+    public static function getTagName(): string
     {
         return 'title';
     }

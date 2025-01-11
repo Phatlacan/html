@@ -6,7 +6,6 @@ use Phatlacan\Html\Contracts\RenderableInterface;
 
 abstract class RenderableElement implements RenderableInterface
 {
-
     public function renderOpeningTag(): string
     {
         return "<{$this->getTagName()}>\n";

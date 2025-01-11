@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<phpcs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="https://schema.phpunit.de/10.0/phpcs.xsd ./vendor/squizlabs/php_codesniffer/phpcs.xsd">
+    <config name="encoding" value="utf-8"/>
+    <rule ref="PSR12"/>
+
+    <file>src/</file>
+
+    <exclude-pattern>*/vendor/*</exclude-pattern>
+    <exclude-pattern>*/tests/*</exclude-pattern>
+
+    <rule ref="Generic.Files.LineLength">
+        <properties>
+            <property name="lineLimit" value="120"/>
+        </properties>
+    </rule>
+
+    <severity>1</severity>
+
+    <rule ref="Squiz.WhiteSpace.SuperfluousWhitespace">
+        <severity>2</severity>
+    </rule>
+</phpcs>
