@@ -8,12 +8,12 @@ use PHPUnit\Framework\TestCase;
 class AccesskeyAttributeTraitTest extends TestCase
 {
 
-    #[Test] public function renderAccessKey_null()
+    #[Test] public function render_null()
     {
         $this->assertNull($this->createMockInstance()->renderAccessKey());
     }
 
-    #[Test] public function renderAccessKey_not_null()
+    #[Test] public function render_not_null()
     {
         // Arrange
         $accessKey = 'a';

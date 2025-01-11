@@ -2,12 +2,12 @@
 
 namespace Phatlacan\Html\Traits\CoreAttributes;
 
+/**
+ * @var string|null
+ * @see https://www.w3.org/TR/2012/WD-html-markup-20121025/global-attributes.html#common.attrs.accesskey
+ */
 trait AccesskeyAttributeTrait
 {
-    /**
-     * @var string|null
-     * @see https://www.w3.org/TR/2012/WD-html-markup-20121025/global-attributes.html#common.attrs.accesskey
-     */
     protected ?string $accessKey = null;
 
     public function setAccessKey(string $accessKey): static
