@@ -1,6 +1,6 @@
 <?php
 
-namespace Phatlacan\Html\Tests;
+namespace Phatlacan\Html\Head;
 
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
