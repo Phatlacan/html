@@ -1,5 +1,6 @@
 # Todo
 
+- [ ] htmlspecialchars
 - [ ] Core attributes
     - [x] accesskey
     - [x] class
@@ -82,3 +83,10 @@
         - [ ] form
         - [ ] input
         - [ ] button
+    - [ ] Document Meta/Head
+      - [ ] Head
+      - [x] Title
+      - [ ] Base
+      - [ ] Link
+      - [ ] Meta
+      - [ ] Style
