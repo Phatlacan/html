@@ -9,7 +9,7 @@ use Phatlacan\Html\Enums\TextDirectionEnum;
  */
 trait DirAttributeTrait
 {
-    protected TextDirectionEnum $dir = TextDirectionEnum::AUTO;
+    protected ?TextDirectionEnum $dir = null;
 
     public function setDir(TextDirectionEnum $dir): static
     {
@@ -18,8 +18,12 @@ trait DirAttributeTrait
         return $this;
     }
 
-    public function renderDir(): string
+    public function renderDir(): ?string
     {
+        if (!$this->dir) {
+            return null;
+        }
+
         return "dir=\"{$this->dir->value}\"";
     }
 }

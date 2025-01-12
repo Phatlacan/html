@@ -11,10 +11,7 @@ class DirAttributeTraitTest extends TestCase
 
     #[Test] public function render_default()
     {
-        $this->assertEquals(
-            "dir=\"auto\"",
-            $this->createMockInstance()->renderDir()
-        );
+        $this->assertNull($this->createMockInstance()->renderDir());
     }
 
     #[Test] public function render_not_null()

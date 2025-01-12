@@ -2,6 +2,8 @@
 
 namespace Phatlacan\Html\Traits\CoreAttributes;
 
+use Phatlacan\Html\Contracts\CoreAttributesInterface;
+use Phatlacan\Html\Traits\CoreAttributesTrait;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
 
@@ -27,9 +29,9 @@ class LangAttributeTraitTest extends TestCase
 
     protected function createMockInstance(): object
     {
-        return new class
+        return new class implements CoreAttributesInterface
         {
-            use LangAttributeTrait;
+            use CoreAttributesTrait;
         };
     }
 }
