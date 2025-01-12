@@ -1,16 +1,16 @@
 # Todo
 
 - [ ] Core attributes
-    - [ ] accesskey
-    - [ ] class
-    - [ ] contenteditable
+    - [x] accesskey
+    - [x] class
+    - [x] contenteditable
     - [ ] contextmenu
-    - [ ] dir
+    - [x] dir
     - [ ] draggable
     - [ ] dropzone
     - [ ] hidden
-    - [ ] id
-    - [ ] lang
+    - [x] id
+    - [x] lang
     - [ ] spellcheck
     - [ ] style
     - [ ] tabindex
