@@ -12,7 +12,6 @@ use Phatlacan\Html\Enums\LinkMediaEnum;
  */
 abstract class Link implements RenderableInterface, TagInterface
 {
-    //media
     //hreflang
     //type
     //title
@@ -21,8 +20,7 @@ abstract class Link implements RenderableInterface, TagInterface
         protected string $href,
         protected readonly LinkEnum $rel,
         protected ?LinkMediaEnum $media,
-    )
-    {
+    ) {
     }
 
     public function render(): string
