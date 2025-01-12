@@ -3,8 +3,9 @@
 namespace Phatlacan\Html;
 
 use Phatlacan\Html\Contracts\RenderableInterface;
+use Phatlacan\Html\Contracts\TagInterface;
 
-abstract class RenderableElement implements RenderableInterface
+abstract class RenderableElement implements RenderableInterface, TagInterface
 {
     public function renderOpeningTag(): string
     {

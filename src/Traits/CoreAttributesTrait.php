@@ -24,14 +24,18 @@ trait CoreAttributesTrait
     public function renderCoreAttributes(): string
     {
         $attributes = array_filter([
-            $this->renderAccessKey(),
+            $this->renderId(),
             $this->renderClass(),
+            $this->renderAccessKey(),
             $this->renderContenteditable(),
             $this->renderDir(),
-            $this->renderId(),
             $this->renderLang(),
         ]);
 
-        return trim(implode(' ', $attributes));
+        if (empty($attributes)) {
+            return '';
+        }
+
+        return ' ' . implode(' ', $attributes);
     }
 }

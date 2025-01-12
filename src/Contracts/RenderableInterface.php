@@ -5,5 +5,4 @@ namespace Phatlacan\Html\Contracts;
 interface RenderableInterface
 {
     public function render(): string;
-    public static function getTagName(): string;
 }
