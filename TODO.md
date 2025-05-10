@@ -1,0 +1,92 @@
+# Todo
+
+- [ ] htmlspecialchars
+- [ ] Core attributes
+    - [x] accesskey
+    - [x] class
+    - [x] contenteditable
+    - [ ] contextmenu
+    - [x] dir
+    - [ ] draggable
+    - [ ] dropzone
+    - [ ] hidden
+    - [x] id
+    - [x] lang
+    - [ ] spellcheck
+    - [ ] style
+    - [ ] tabindex
+    - [ ] title
+    - [ ] translate
+- [ ] Tags
+    - [ ] Sections
+        - [ ] body
+        - [ ] section
+        - [ ] nav
+        - [ ] article
+        - [ ] aside
+        - [x] h1
+        - [x] h2
+        - [x] h3
+        - [x] h4
+        - [x] h5
+        - [x] h6
+        - [ ] hgroup
+        - [ ] header
+        - [ ] footer
+        - [ ] address
+    - [ ] Grouping content
+        - [ ] p
+        - [ ] hr
+        - [ ] pre
+        - [ ] blockquote
+        - [ ] ol
+        - [ ] ul
+        - [ ] li
+        - [ ] dl
+        - [ ] dt
+        - [ ] dd
+        - [ ] figure
+        - [ ] figcaption
+        - [ ] div
+    - [ ] Text-level semantics
+        - [ ] a
+        - [ ] em
+        - [ ] strong
+        - [ ] small
+        - [ ] s
+        - [ ] cite
+        - [ ] q
+        - [ ] dfn
+        - [ ] abbr
+        - [ ] time
+        - [ ] code
+        - [ ] figure
+        - [ ] samp
+        - [ ] kbd
+        - [ ] sub
+        - [ ] sup
+        - [ ] i
+        - [ ] b
+        - [ ] u
+        - [ ] mark
+        - [ ] ruby
+        - [ ] rt
+        - [ ] rp
+        - [ ] bdi
+        - [ ] bdo
+        - [ ] span
+        - [ ] br
+        - [ ] wbr
+    - [ ] Embedded content
+        - [ ] img
+    - [ ] Forms
+        - [ ] form
+        - [ ] input
+        - [ ] button
+    - [ ] Document Meta/Head
+      - [ ] Head
+      - [x] Title
+      - [ ] Base
+      - [ ] Link
+      - [ ] Meta
+      - [ ] Style
